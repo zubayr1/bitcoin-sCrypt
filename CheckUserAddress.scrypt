@@ -1,0 +1,14 @@
+contract CheckUserAddress
+{
+    PubKey pubKey;
+
+    constructor(PubKey pubKey)
+    {
+        this.pubKey = pubKey;
+    }
+
+    public function getvalue(PubKey pubKey)
+    {
+        require(this.pubKey==pubKey);
+    }
+}

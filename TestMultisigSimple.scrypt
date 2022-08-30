@@ -1,0 +1,34 @@
+struct Result
+    {
+        int time;
+        int lockvalue;
+    }
+
+contract Test
+{
+    int val;
+
+    Result result;
+    
+    constructor(int _val, int _time, int _lockvalue)
+    {
+        this.val = _val;
+
+        this.result.time = _time;
+        this.result.lockvalue = _lockvalue; 
+    }
+
+    
+
+    public function equal(int x)
+    {
+        require(x==this.val && this.result.lockvalue>0);
+
+    }
+
+    public function greater(int x)
+    {
+        require(x>this.val && this.result.lockvalue>0 && this.result.time>0);
+    }
+}
+

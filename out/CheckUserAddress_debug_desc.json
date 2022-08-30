@@ -1,0 +1,58 @@
+{
+    "version": 9,
+    "compilerVersion": "1.17.1+commit.3385a0d",
+    "contract": "CheckUserAddress",
+    "md5": "fca162985bba273ae4d1fc15ddc6fb65",
+    "structs": [
+        {
+            "name": "SortedItem",
+            "params": [
+                {
+                    "name": "item",
+                    "type": "T"
+                },
+                {
+                    "name": "idx",
+                    "type": "int"
+                }
+            ],
+            "genericTypes": [
+                "T"
+            ]
+        }
+    ],
+    "library": [],
+    "alias": [
+        {
+            "name": "PubKeyHash",
+            "type": "Ripemd160"
+        }
+    ],
+    "abi": [
+        {
+            "type": "function",
+            "name": "getvalue",
+            "index": 0,
+            "params": [
+                {
+                    "name": "pubKey",
+                    "type": "PubKey"
+                }
+            ]
+        },
+        {
+            "type": "constructor",
+            "params": [
+                {
+                    "name": "pubKey",
+                    "type": "PubKey"
+                }
+            ]
+        }
+    ],
+    "stateProps": [],
+    "buildType": "debug",
+    "file": "file:///c:/Users/write/OneDrive/Desktop/Uni%20Saarland%20docs/bitcoin%20sCrypt/CheckUserAddress.scrypt",
+    "hex": "00<pubKey>610079527a75517a756100795279877777",
+    "sourceMapFile": ""
+}

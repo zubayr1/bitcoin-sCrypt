@@ -1,0 +1,58 @@
+{
+    "version": 9,
+    "compilerVersion": "1.17.1+commit.3385a0d",
+    "contract": "Demo",
+    "md5": "63432d908c1f76cabfdfb1762e4aebb7",
+    "structs": [
+        {
+            "name": "SortedItem",
+            "params": [
+                {
+                    "name": "item",
+                    "type": "T"
+                },
+                {
+                    "name": "idx",
+                    "type": "int"
+                }
+            ],
+            "genericTypes": [
+                "T"
+            ]
+        }
+    ],
+    "library": [],
+    "alias": [
+        {
+            "name": "PubKeyHash",
+            "type": "Ripemd160"
+        }
+    ],
+    "abi": [
+        {
+            "type": "function",
+            "name": "main",
+            "index": 0,
+            "params": [
+                {
+                    "name": "x",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "type": "constructor",
+            "params": [
+                {
+                    "name": "x",
+                    "type": "int"
+                }
+            ]
+        }
+    ],
+    "stateProps": [],
+    "buildType": "debug",
+    "file": "file:///c:/Users/write/OneDrive/Desktop/Uni%20Saarland%20docs/bitcoin%20sCrypt/demo.scrypt",
+    "hex": "00<x>610079527a75517a7561517951799c7777",
+    "sourceMapFile": ""
+}
