@@ -1,0 +1,14 @@
+contract Demo
+{
+    int x;
+
+    constructor(int x)
+    {
+        this.x = x;
+    }
+
+    public function main(int x)
+    {
+        require(x==this.x);
+    }
+}
