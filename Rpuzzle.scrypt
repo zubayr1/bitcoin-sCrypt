@@ -1,0 +1,26 @@
+contract Rpuzzle
+{
+    Ripemd160 hashsig;
+
+    constructor(Ripemd160 _hashsig)
+    {
+        this.hashsig = _hashsig;
+    }
+
+    static function getSigR(Sig sigr) : bytes
+    {
+        bytes lenBytes = sigr[3:4];
+        int len = unpack(lenBytes);
+        bytes r =sigr[4:4+len];
+
+        return r;
+    }
+
+
+    public function verify(Sig sig, PubKey pubkey, Sig sigr)
+    {
+        require(this.hashsig == hash160(getSigR(sigr)));
+        require(checkSig(sigr, pubkey));
+        require(checkSig(sig, pubkey));
+    }
+}

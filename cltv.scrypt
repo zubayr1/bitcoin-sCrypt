@@ -1,0 +1,12 @@
+
+contract cltv {
+    
+    int maturetime;
+    
+    public function spend(SigHashPreimage txPreImage) {
+    
+        require(Tx.checkPreimage(txPreImage));
+
+        
+    }
+}
