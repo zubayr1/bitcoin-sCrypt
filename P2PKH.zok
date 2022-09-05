@@ -1,0 +1,21 @@
+import "hashes/sha256/sha256" as sha256;
+
+// sig, pubkey: from unlocking script
+// ls: hash of the locking script
+// pubkeyhash: hash160 of pubkey. It is present in locking script
+// C: commitment of the locking script which is the additional data to be passed in the zcash memo section
+// r: salt data
+
+def main(field sig, private field pubkey, private field ls, field r, field C, field pubkeyhash)
+{
+    //require(hash160(pubKey) == this.pubkeyHash);
+    //require(checkSig(sig, pubKey));
+
+    assert(sha256(pubkey) == pubkeyhash);
+
+    //assert(checksig(sig, pubKey))
+
+    assert(sha256(ls+r) == C);
+
+    return;
+}
