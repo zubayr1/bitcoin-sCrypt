@@ -1,0 +1,56 @@
+{
+    "scheme": "g16",
+    "curve": "bn128",
+    "alpha": [
+      "0x243b329ad57101b08a3e0be6195db081d60a91deead73cd37cbb8c189f507218",
+      "0x14b848601a8a9d882f4f4b19d86ad98f887ceb28a7a3fc3d8b1bac899e648475"
+    ],
+    "beta": [
+      [
+        "0x2931425239924e556b8f28f0e9c11034a70f4a4c032af5daa033a3ce5f9e08c0",
+        "0x1eb88fc5e923e0e222dd77f8b9ca3d592a2c9d0237e234673f91734aca174734"
+      ],
+      [
+        "0x12c564f89d9eb5b8263035abdea2374de6879bf717fb0609adcab23f4acb1430",
+        "0x0013da174d307d976153a551e28feb343b32a861132e751a872410f09ee3f140"
+      ]
+    ],
+    "gamma": [
+      [
+        "0x00069a774c96892ada3e7e496265d2b6490c0a7f0a1ceabb160aee67dd019a5f",
+        "0x073f2593aee75e18114727032f075d5d1267e306e5878352f21e60adc39e8b7c"
+      ],
+      [
+        "0x08c5087c2a7752b0305228bed5c293634d179a6c1d8ac9ef90375c4f08ebcff8",
+        "0x296fad6fb62f0ec10e0d19a756fd0c00bd9464f48164cbd93ef42fb0568a5e97"
+      ]
+    ],
+    "delta": [
+      [
+        "0x2954c74446bc84c6c1ec0709bc01a674fa69b8b53dcf14c9b59a7e113a4fbd01",
+        "0x26b664d4e664c11ab015b18b30faadd179830b28fa96bac4a65ee85cbd56b535"
+      ],
+      [
+        "0x2103fd7717bb377c79c128d0e6adbb85b2efa0d41a299de4a8774d5adbbd41f7",
+        "0x1f900f0395f203780f26ad9867b1474593827a5c332e897e549702d09fc9194f"
+      ]
+    ],
+    "gamma_abc": [
+      [
+        "0x1f341bcfbcbd40b0355a60cfad4bf7bf30fd6acd230ab6657a54cbc3eccebfbf",
+        "0x164ac1a8d54504b6c4b53be15559b3bbda56272104d2ab9c6ff030569450d28e"
+      ],
+      [
+        "0x1c960102178fba08c6b2e907e9620d0a745889d2ae16d817bb689ac45767b5a3",
+        "0x00e8d054d0f3b017c485544a185e3229a332327dfada7bb872118961e8936830"
+      ],
+      [
+        "0x2a971e9092ad96b11abb66bf108396c059946ee7ca1df5c1dcadabc450923aa5",
+        "0x088120aaa664c98903956b67ab51fbfd4fc8208cec5d451a1c1f2f05ba4b118f"
+      ],
+      [
+        "0x05eb52cec35812648abc73c3f5e46c8078d9474c71e7d9a48a238ecd326820d0",
+        "0x1dff620504f61a0fc32b9965cd9da3fd8f483966125064511de8b630ee80b88c"
+      ]
+    ]
+  }
